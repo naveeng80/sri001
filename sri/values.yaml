@@ -31,6 +31,6 @@ myscret:
 dockerConfig:
   auths:
     "ghcr.io": 
-       auth: "bmF2ZWVuZzgwOmdocF9jM1R5VVpSRE42cExoR0Y0THNDdjhVZjNlZ1VmUEMwejA1MTc="
+       auth: "bmF2ZWVuZzgwOmdocF80akFJN3l1d3BtYjNsMnhPUkkzanFmQlF0ZVZmeEcxNjhybnA="
        
-#[Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("naveeng80: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"))
+#[Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("naveeng80: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"))
