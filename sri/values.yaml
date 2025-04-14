@@ -22,7 +22,7 @@ myimage:
 myservice:
   type: NodePort
   port: 80
-  servicename: Test-service
+  servicename: test-service
   myprotocol: TCP
 
 myscret:
