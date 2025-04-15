@@ -4,7 +4,7 @@
 
 # This will set the replicaset count more information can be found here: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
 replicaCount: 3
-appdeployname: test-deployment
+appdeployname: divya-deployment
 appname: sri
 
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
@@ -16,13 +16,13 @@ myimage:
   Whentopullimage: Always
   containerandtargetPort: 3001
   appcontainername: sri-container
-  NodePort: 30081
+  NodePort: 30082
 
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 myservice:
   type: NodePort
   port: 80
-  servicename: test-service
+  servicename: sritest-service
   myprotocol: TCP
 
 myscret:
